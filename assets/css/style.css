@@ -26,7 +26,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 210px;
+    height: 300px;
     border-radius: 8px 8px 0 0;
     position: relative;
 }
@@ -44,14 +44,18 @@ body {
 
 .card-text {
     text-align: center;
-    padding: 20px;
+    padding: 30px 15px;
 }
 
 h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 20px;
+}
+
+h1 span {
+    color: hsl(277, 64%, 61%);
 }
 
 p {
@@ -60,7 +64,7 @@ p {
     line-height: 24px;
     font-family: 'Lexand Deca', sans-serif;
     letter-spacing: 1px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .info {
@@ -73,7 +77,7 @@ p {
     letter-spacing: 1px;
 }
 
-span {
+.number {
     display: block;
     font-weight: 700;
     font-size: 20px;
@@ -105,12 +109,22 @@ span {
     }
 
     .background {
-        height: 100%;
         width: 50%;
+        height: 100%;
     }
 
     .card-text {
         width: 50%;
+        padding: 60px;
+    }
+
+    h1 {
+        text-align: initial;
+    }
+
+    p {
+        text-align: initial;
+        margin-bottom: 80px;
     }
 
     .status {
