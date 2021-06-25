@@ -84,15 +84,41 @@ span {
 }
 
 .attribution {
-    font-size: 11px;
+    font-size: 15px;
     text-align: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.5);
-    color:hsl(228, 45%, 44%)
+    color:hsl(228, 45%, 44%);
+    padding: 10px;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 768px) {
+    .card {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .background {
+        height: 100%;
+        width: 50%;
+    }
+
+    .card-text {
+        width: 50%;
+    }
+
+    .status {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .info {
+        text-align: initial;
+    }
 }
